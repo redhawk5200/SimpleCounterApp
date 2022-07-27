@@ -30,7 +30,7 @@ class Counter extends Component{
             <View>
                 <Text style={styles.text}>{this.props.number}</Text>
                 <TouchableOpacity style={styles.button} onPress={this.props.inincreaseCounter}>
-                    <Text style={styles.text1}>+jjdadaaadadada</Text>
+                    <Text style={styles.text1}>+</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.button}  onPress={this.props.decreaseCounter}>
                     <Text style={styles.text1}>-</Text>
